@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+body {
+  font: 15px/1.5 'montserrat',sans-serif;
+  background-color: #f4f3f3;
+  /* border: 2px solid black; */
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  /* border: 2px solid black; */
+}
+
+header {
+  /* border-bottom: #448aff 3px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px 50px;
+  height: 20vh;
+  width: 100%;
+  background: #03a9f4;
+  /* border: 2px solid black; */
+}
+
+.main-header {
+  text-align: center;
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  /* border: 2px solid black; */
+}
+
+
+#brandname {
+  float: left;
+  font-size: 30px;
+  color: #fff;
+  margin: 10px;
+  /* border: 2px solid black; */
+}
+
+header h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  /* border: 2px solid black; */
+}
+
+
+.messageContainer{
+  height:80vh;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.messageBox{
+  /* margin: auto; */
+  margin:20px 0 ;
+  height: 30vh;
+  border: 1px solid transparent;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-info {
+  font-weight: 700;
+  color: #fff;
+  background-color: #2196f3;
+  height: 40px;
+  width: 100px;
+  border: 2px solid transparent;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+} /* Blue */
+
+
+.btn-info:hover {
+  background: #fff;
+  color: #2196f3;
+}
+
+.resultss {
+  border-radius: 15px 50px;
+  background: #345fe4;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.resultComment{
+  margin: 20px 0;
+  /* border: 2px solid black; */
+}
+
+.resultComment b{
+  font-weight:700;
+  /* border: 2px solid black; */
+}
+
+.results{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+
+}
